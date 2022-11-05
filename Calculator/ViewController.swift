@@ -11,9 +11,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupSubview()
     }
-
 
 }
 
+extension ViewController {
+    
+    private func setupSubview() {
+        let bor = 1
+        
+    }
+    
+}
